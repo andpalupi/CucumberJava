@@ -1,0 +1,146 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-07-23T09:22:23.908Z",
+    "line" : 3,
+    "name" : "Validate google search is working",
+    "description" : "",
+    "id" : "feature-to-test-google-search-funcationality;validate-google-search-is-working",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 4271040700,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "browser is open",
+      "match" : {
+        "location" : "StepDefinitions.GoogleSearchSteps.browser_is_open()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 8801533700,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user is on google search page",
+      "match" : {
+        "location" : "StepDefinitions.GoogleSearchSteps.user_is_on_google_search_page()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2223890200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "users enters a text in search box",
+      "match" : {
+        "location" : "StepDefinitions.GoogleSearchSteps.users_enters_a_text_in_search_box()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 4122757600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "hits enter",
+      "match" : {
+        "location" : "StepDefinitions.GoogleSearchSteps.hits_enter()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 600161600,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user is navigated to search results",
+      "match" : {
+        "location" : "StepDefinitions.GoogleSearchSteps.user_is_navigated_to_search_results()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "feature to test google search funcationality",
+  "description" : "",
+  "id" : "feature-to-test-google-search-funcationality",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/GoogleSearch.feature",
+  "tags" : [ ]
+}, {
+  "line" : 6,
+  "elements" : [ {
+    "start_timestamp" : "2022-07-23T09:22:43.994Z",
+    "line" : 9,
+    "name" : "Check login is successful with valid credentials",
+    "description" : "",
+    "id" : "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "user is on login page",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.user_is_on_login_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user enters username and password",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.user_enters_username_and_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 998800,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "clicks on login button",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.clicks_on_login_button()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 1001700,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "user is navigated to the home page",
+      "match" : {
+        "location" : "StepDefinitions.LoginSteps.user_is_navigated_to_the_home_page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeScenario"
+    }, {
+      "name" : "@SmokeTest"
+    } ]
+  } ],
+  "name" : "feature to test login functionality",
+  "description" : "",
+  "id" : "feature-to-test-login-functionality",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/Features/login.feature",
+  "tags" : [ {
+    "name" : "@SmokeScenario",
+    "type" : "Tag",
+    "location" : {
+      "line" : 5,
+      "column" : 1
+    }
+  } ]
+} ]
