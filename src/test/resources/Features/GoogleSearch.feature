@@ -1,5 +1,6 @@
 Feature: feature to test google search funcationality
 
+	@SmokeTest
   Scenario: Validate google search is working
     Given browser is open
     And user is on Verint page

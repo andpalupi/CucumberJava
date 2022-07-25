@@ -8,11 +8,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.edge.EdgeDriver;
-//import org.openqa.selenium.support.ui.ExpectedConditions;
-//import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.cucumber.java.en.*;
 import pages.homePage;
 
@@ -55,8 +50,6 @@ public class GoogleSearchSteps {
 		
 		home.clickSearch();
 		
-//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-//		driver.findElement(By.cssSelector("#site-header > div > div.site-header__container > div > div.site-header__mobile.flex > div > button")).click();
 	}
 	
 	@When("users enters a text in search box")
